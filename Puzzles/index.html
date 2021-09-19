@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="icon" href="styles/favicon.png" type="image/x-icon"/>
+    <title>Image Puzzle</title>
+</head>
+<body>
+    <div class="info">
+        <div id="title">ПАЗЗЛЫ</div>
+        <div id="rest">Перетаскивайте части изображения на панель ниже, чтобы получить изображение</div>
+        <div id="rest">Вы можете поместить несколько частей в одну и ту же область, но вы не можете их менять местами, будет доступна только последняя из тех, которые вы положили.</div>
+        <div id="rest">В целях сохранения интриги итоговое изображение показано не будет. Соберите его сами.</div>
+    </div>
+      
+    <div class="align">
+        <div id="images">
+            <div id="drag4" draggable="true" ondragstart="drag(event)"></div>
+            <div id="drag5" draggable="true" ondragstart="drag(event)"></div>
+            <div id="drag6" draggable="true" ondragstart="drag(event)"></div>
+            <div id="drag7" draggable="true" ondragstart="drag(event)"></div>
+            <div id="drag8" draggable="true" ondragstart="drag(event)"></div>
+            <div id="drag9" draggable="true" ondragstart="drag(event)"></div>
+            <div id="drag10" draggable="true" ondragstart="drag(event)"></div>
+            <div id="drag11" draggable="true" ondragstart="drag(event)"></div>
+            <div id="drag12" draggable="true" ondragstart="drag(event)"></div>
+        </div>
+    </div>
+      
+    <div id="text">
+        <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div id="div3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div id="div4" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div id="div5" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div id="div6" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div id="div7" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div id="div8" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div id="div9" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    </div>
+      
+    <div class="info"><p>Поздравляем, если вы закончили!<p></div>
+    <div class="info"><p>Персонаж: Вергилий. (Devil May Cry)<p></div>
+    <script src="js/script.js"></script>
+</body>
+</html>

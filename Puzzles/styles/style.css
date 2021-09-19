@@ -1,0 +1,104 @@
+  body {
+    color:floralwhite;
+    background-image: url("wall.jpg");
+  }
+
+  .info {
+    position:relative;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin:10px;
+    text-align:center;
+    border-radius:5px;
+    font-size:15px;
+  }
+
+  .align{
+    margin-left: 2.5%;
+    margin-bottom: 2.5%;
+    margin-top: 2%;
+  }
+
+  #title {
+    font-size:20px;
+  }
+
+  #rest {
+    font-size:13px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  #text div {
+    position:relative;
+    height: 200px;
+    width: 200px;
+    border: 1px dashed gray;
+    display: inline-block;
+  }
+
+  #text {
+    width:614px;
+    height:614px;
+    background:black;
+    border:5px solid black;
+    margin:auto;
+  }
+
+  #images {
+    width: 100%
+  }
+
+  img {
+    height: 50px;
+    width: 50px;
+  }
+
+  #drag4,
+  #drag5,
+  #drag6,
+  #drag7,
+  #drag8,
+  #drag9,
+  #drag10,
+  #drag11,
+  #drag12 {
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+  }
+
+  #drag4{
+    background-image: url("part_1.jpg");
+  }
+
+  #drag5{
+  background-image: url("part_3.jpg");
+  }
+
+  #drag6{
+    background-image: url("part_9.jpg");
+  }
+
+  #drag7{
+    background-image: url("part_7.jpg");
+  }
+
+  #drag8{
+    background-image: url("part_2.jpg");
+  }
+
+  #drag9{
+    background-image: url("part_4.jpg");
+  }
+
+  #drag10{
+    background-image: url("part_6.jpg");
+  }
+
+  #drag11{
+    background-image: url("part_8.jpg");
+  }
+
+  #drag12{
+    background-image: url("part_5.jpg");
+  }
+
